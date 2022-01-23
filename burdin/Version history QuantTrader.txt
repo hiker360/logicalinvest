@@ -1,0 +1,407 @@
+527S
+QuantTrader version 527S changes:
+Allocatins for leveraged and short positions are displayed correctly
+
+525S
+QuantTrader version 525S changes:
+several bug fixes
+Tiingo Api update
+
+524S
+several bug fixes
+
+520S 
+This is the QuantTrader version for 2020
+The version comes with several strategy modifications. The main modification is a modified hedging strategy".
+
+519S 
+this version has been skipped
+
+518S
+QuantTrader version 518S changes:
+
+- The intraday data stream now also comes from "https://eodhistoricaldata.com/" since Yahoo stopped to deliver intraday data.
+
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader518S.zip
+
+517S 
+this version has been skipped
+
+516S
+QuantTrader version 516S changes:
+
+- In the symbol manager you can now define different stock extensions so that you can now construct
+non US strategies. For non US symbols you should use EOhistoricaldata as data provider.
+Please check yourself on the "https://eodhistoricaldata.com/" website for the correct extension.
+- Several bug fixes
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader516S.zip
+
+515S
+QuantTrader version 515S changes:
+
+- New EODhistoricaldata.com financial data source added.
+This new data source allows fast data download and offers not only US stock data but also data of
+all major stock exchanges. All non US stocks or ETFs have an extension. So German stocks will have
+for example the extension .XETRA. Please check yourself on the "https://eodhistoricaldata.com/" 
+website for the correct extension.
+You can change and also save the data source in the pop-up window just after you start QuantTrader. 
+- New logical-invest sftp server.
+Stock- and ETF data is now downloaded directly from the logical-invest sftp server. This 
+accelerates the download a lot.
+- New mean reversion data fields. 
+In the past you could add or substract the performance of a mean reversion period which was counted
+from the end of the lookback period. So if you had a lookback period of 60 days you could substract 
+for example the performance of the last 15 days using a 100% mean reversion weight.
+The period was defined in days which did not work well together with our optimizer. Now this period
+is a percentage of the lookback period. If you define for example a mean reversion weight of -150%
+and a period of 25% then with a lookback period of 60 days it would substract 1.5x the performance 
+of the last 15 days from the total lookback period performance.
+The mean reversion is a very important parameter, as it is normally not good to buy ETFs or stocks
+which had a strong upside move just recently, as normally prices tend to revert to the mean.
+We had to recalculate all strategies using the new mean reversion parameters. Most strategies did
+profit quite a bit from these new parameters. A good example is the US markets substrategy with ETFs
+like SPY, DIA, SPLV and QQQ. SPY and DIA for example had more or less the same performance over the 
+last 10 years, but their monthly performance could be quite different. This means that if one ETF
+under-performed, sooner or later it over-performed. So investing in the under-performer for the next 
+month was quite beneficial over longer periods. 
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader515S.zip
+
+514S
+QuantTrader version 514S changes:
+
+This is a major update of QuantTrader with a lot of changes. 
+**** We recommend to make a backup of your current version ******
+
+- Single strategy ini files replace the QuantTrader.ini file
+The biggest change is that from now on, all strategies are saved in a special "ini" subfolder and each strategy is a single ini file. This makes it much easier to share single strategies. All
+you have to do, is to share the strategy.ini file in the ini subfolder and copy it to another
+QuantTrader installation and the strategy will show up in the strategy list. Of course if a 
+strategy uses substrategies, you will need to share all strategies. If a substrategy is missing
+QuantTrader will issue a warning.
+If you update a single strategy, then a backup of the last version will be saved in the ini/bakup
+folder. To reactivate the backup strategy you just copy it back to the ini folder.
+If you have made your own strategies then QuantTrader will split your QuantTrader.ini file
+in single strategy.ini files and you can continue to work as before.
+In the QuantTrader folder you can delete all files except the QuantTraderUser.ini file, the
+QuantTrader.exe file and the cor data and ini subfolders
+
+- Integrated strategy and correction data updater
+Once you start QuantTrader it will check on the server for updated strategies and display these
+in a file strategy selection window. If you click "update" then the strategies will be updated
+to the last version.
+The updater will also look for updated symbol correction files. These files are used to correct
+errors in the symbols pricing data and also to extend the historical prices of some newer ETFs.
+For example using the TLT treasury ETF we have extended the 3x leveraged TMF, so that now these
+leveraged strategies go back much longer.
+
+- We corrected many many bugs (too much to list them here)
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader514S.zip
+
+513S
+QuantTrader version 513S changes:
+
+- Adds a Help button which points to a web-page with help videos
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader513S.zip
+
+512S
+QuantTrader version 512S changes:
+
+- Corrects a bug when downloading intraday data.
+- Corrects a bug which made the "invested" allocation change one day to early to the actual allocation.
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader512S.zip
+
+511S
+QuantTrader version 511S changes:
+
+- Change in the allocation display. Now it should be more clear which is the "invested" allocation for the new period as we 
+  also write the period date (for example "Feb 2018"). The Actual tab however will show the calculated investment for the last
+  close. So, this allocation can change within the month.
+  If you want to invest rather before the end of month, then you can check the "Use end of day and Intraday prices" checkbox when
+  starting QuantTrader. If you do this for example the last trading day of the month, one hour before the stock market closes, then
+  your prices for this day are quite close to the closing price, and the allocations calculated will be most of the time the
+  same as the allocations we publish a day later.
+- We did the same changes in the "Consolidated Allocations" window. If you rebalance the first days of the next month, then you
+  have to use the first check box "Invested Allocations Feb 2018 (based on end of period close)" With this setting the allocations
+  stay the same for the whole month and reflect the actual QuantTrader investment.
+  If you want to invest the last day of the month one hour before market closure, then you have to start QuantTrader so that it
+  downloads intraday prices for this last day and then you check box 2 or 3. Box 2 calculates the number of shares using the 
+  downloaded intraday price when you started QuantTrader and box 3 redownloads the actual intraday prices. There will be 
+  however not a big difference between the number of ETFs for 2 or 3.
+- Bug fix which created ghost lines on the chart when font scaling was enabled under Windows.
+- Bug fix. If you download "local data" then the reload checkbox is automatically disabled.
+- Bug fix. If you duplicate strategies, then the "short text" which links the strategies to our Logical-Invest subscriptions
+  is automatically deleted.
+
+Pls download the Zip file which contains also the latest QuantTrader.ini file
+https://logical-invest.com/quanttrader/QuantTrader511S.zip
+
+510S
+QuantTrader version 510S changes:
+
+- New updated "Consolidated Allocation" window. You can now easily compose your own metastrategy and the window will show you how the strategy would have performrd in the past. 
+- Now also single strategy subscriber can use QuantTrader to backtest their strategy.
+- Several small bug fixes.
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+- Contains latest QuantTrader.ini strategy file with updated strategies. All strategies are now hedged with the Hedge strategy which contains also Gold as a inflation protection
+  https://logical-invest.com/quanttrader/QuantTrader510S.zip
+  
+509S was not distributed
+
+508S
+QuantTrader version 508S changes:
+
+- If you point with the mouse cursor on a period in the charts, then the box now displays the perfotmance for the period rather than daily performance as before.
+- The automatic download of updated Logical-Invest portfolio files (QuantTrader.ini) can now be disabled if you prefer to work with your own modified strategies.
+  The download can be re-enabled in the settings menu.
+- Now you will get a warning if ou construct strategies out of substrategies which do not have the same rebalancing periods. If you use for example the semi-monthly
+  MYRS strategies as a substrategy in a monthly rebalanced meta-strategy, then you also will have to rebalance the meta-strategy by mid month.
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://logical-invest.com/quanttrader/QuantTrader507S.zip
+
+507S
+QuantTrader version 507S changes:
+
+- Now intraday prices work again.
+- Consolidated Prices now lets you display 3 different allocations:
+  1) Invested allocation based on the end of month prices. This is the allocation we give in our newsletters.
+  2) Actual allocation based on the last close
+  3) Actual allocation based on the last close and the actual intraday price 
+  If you intend to invest at last close prices, then you should start QuantTrader the last traiding day of the
+  month, about 1 hour before close (about 3pm). Now you calculate the allocations using the actual allocation
+  based on the actual intraday price (selection 3). This way you can be pretty sure that there are no changes
+  for the allocation compared to the official one which we calculate using the closing price.
+  But be aware that for strategies with many stocks like Nasdaq100, the ranking can still change within the
+  last trading hour.
+- In the system settings you can define the provider for intraday prices. You have the choice between IEX and
+  Google. Yahoo which was our provider until now does not deliver intraday prices anymore.
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://logical-invest.com/quanttrader/QuantTrader507S.zip
+  
+506S
+QuantTrader version 506S changes:
+
+- Fixes a bug which prevented the automatic update of the portfolio files.
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://logical-invest.com/quanttrader/QuantTrader506S.zip
+  
+505S
+QuantTrader version 505S changes:
+
+- QuantTrader now accepts a QuantTraderCorrections.ini file in which pricing errors of
+  the ETFs can be manually corrected. QT will automatically ask you to download this
+  QuantTraderCorrections.ini file if it is not present. In this file you can overwrite
+  daily performances to remove spikes due to missing split adjustments or other
+  errors.
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://logical-invest.com/quanttrader/QuantTrader505S.zip
+
+504S
+QuantTrader version 504S changes:
+
+- Now you can switch in the allocation window between the actual allocation and the
+  monthly allocation in which the strategy is invested. The actual allocation can change
+  during the month and reflects the current ranking. 
+- The user name is now saved and you just have to enter the password to login
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://logical-invest.com/quanttrader/QuantTrader504S.zip
+
+503S was not released
+  
+502S
+QuantTrader version 502S changes:
+
+- New download repository (changed from Dropbox to Logical-Invest)
+- MTD bug fix
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://logical-invest.com/quanttrader/QuantTrader502S.zip
+  
+501S
+QuantTrader version 501S changes:
+
+- Bug fixes of ETF price data download.
+- New MTD (month to date) time range available for the charts
+- Variable, manually set time range is now available for the charts
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader501S.zip
+  
+500S
+QuantTrader version 500S changes:
+
+- New program layout. Now all menus are accessible from the main form.
+- Fixes an error when downloading intraday price data.
+  
+  Pls download the Zip file which contains also the latest QuantTrader.ini file
+  https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader500S.zip
+
+401S
+QuantTrader version 401S changes:
+
+- Main investment strategies are now listed in bold letters and sub strategies in gray letters to make the strategy
+  structure more clear.
+  Pls download the Zip file which contains also the latest QuantTrader.ini file with grayed sub strategies
+  https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader401S.zip
+
+July 06, 2017 QuantTrader version 400S changes:
+
+- Quantrader now calculates consolidated allocations across strategies!!!!!
+  You can access the ETF/stock consolidation page with the "Show cons. allocations" in the lower right corner of the backtester
+  window or directly from the main window.
+  The consolidation window allows you to enter a dollar amount to invest, and the per strategy allocation in percent. It will 
+  then download the current prices of each ETF and calculate the number of ETFs or stocks to buy across all selected strategies.
+  Please check the results before investing!!!
+- Bug fix: Trading delay in system settings
+- Bug fix: prevention of sub strategy loops
+
+June 22, 2017 QuantTrader version 323S changes:
+
+In the startup menu you can now choose between 3 different financial data provider:
+  1) Tiingo is our new default data source. Tiingo uses itself financial data of different sources and checks it for errors. I think Tiingo has the best data quality. Tiingo however only provides US ETFs, Stocks and Mutual Funds. For foreign ETFs, you have to use Yahoo or Google data. Tiingo downloads quite slowly, this is why we mirror the data on an ftp server. Once the first QuantTrader user has downloaded the data, the following users get it very fast directly from the ftp server.
+  2) Yahoo data download works again. We had to simulate the protection password for download. Yahoo is probably the second best provider of historical data. It has however quite a lot of errors in the data. Best is to check the charts. Normally Yahoo forgets to adjust for splits which results in big price jumps in the charts. 
+  3) Google finance data is adjusted for splits but not for dividends. If you compare the performance of a dividend ETF strategy like for example BRS (Bond rotation) then this makes quite a difference compared to Tiingo or Yahoo data. For stock strategies like Nasdaq100 the difference is quite small. The rebalancing results are most of the time the same as calculated with dividends. So Google is here as a security backup or to get financial data of foreign stocks.
+  
+If you want to use foreign ETFs then you should do the following: 
+  If you only run foreign ETFs, then you can directly download from Yahoo. If you have use also many US ETFs, then I would download from Tiingo and just set Yahoo as download source in the Sympol manager. If you want to load for example a German Eurostoxx 600 ETF from Commerzbank (Symbol C060), then go to Yahoo finance and search for this symbol name. Now you can write "symbol name"=C060, "full symbol name"=C060.DE with DE indicating that I get the data from the German stock exchange. Under "Historical Data Provider" you choose Yahoo. From now on QT will download this symbol from Yahoo even if you select Tiingo as the data provider.
+
+With this 3 proviers we should be safe to download always the data necessary to calculate the rebalancing allocations.
+
+June 13, 2017 Version 322S changes:
+
+- fixes data download errors due to incomplete data
+- when you start QuantTrader you will have a selection which allows you to:
+  - start with local data (very fast)
+  - start with end of last day data (fast when the data is already on our ftp server)
+  - start using intraday data for the current day. This will use the 15min delayed intrady prices for the current day. It works only when the markets are open.
+
+June 8, 2017 Version 321S changes:
+
+- fixes an error which happened when you tried to load mutual fund data which has only a closing price but no adjusted prices.
+US mutual funds can be loaded directly without using the full symbol name for Google finance
+
+June 7, 2017 Version 320S changes:
+
+- fixes errors resulting of uncomplete ETF data. If some of the data (open, high, low, close, adjusted) is missing in the data feed, then we replace it by the price fields which are available. 
+
+- Now you can use Google Finance data when adding international ETFs with the symbol manager. 
+If for example you want to add the C060 ETF (Commerzbank Stoxx 600), then you write C060 in the "symbol name" field and the full "FRA:C060" name in the "full symbol name" field. 
+FRA indicates the market place. You need to do a search in Google finance to find the correct ETF names.
+
+June 6, 2017 Version 319S changes:
+
+– This version fixes an error which made QuantTrader crash due to international differences of the financial data uploads
+
+Download link:
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader319S.zip
+
+June 2, 2017 Version 318S changes:
+
+– This version fixes an error which produced corrupt ETF data due to international differences having a . or a , as the number separator
+– Please delete all old csv ETF data files in the folder as they may be corrupted.
+– Please report errors directly to: frank@logical-invest.com
+
+Download link:
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader318S.zip
+
+June 1, 2017 Version 317S changes:
+
+– This version speeds up the download of financial data by a factor of 10x. Please don’t use the old 316S version anymore because it uses too much bandwidth of our new data provider.
+– We still can no work with international ETFs, but we are working on a fix using Google finance data for the next version.- – Please report errors directly to: frank@logical-invest.com
+
+Download link:
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader317S.zip
+
+May 24, 2017 Version 316S changes:
+
+– This version switches to a new financial data provider after the Yahoo finance servers stopped to work for over a week.
+The download time for all symbols is still quite slow (about 10 min), but we will make it faster next week.
+Make sure you delete all old csv files if you install this version in a existing folder.
+When you start QT with one of your QuantTrader.ini files, then a popup window will tell you that some symbols have not been found.
+Pls. check then all symbold and then delete them.
+These symbols are non US symbols and are not used for our strategies. At the moment we can only download US symbols.
+
+– New feature: QuantTrader now does an automatic version update if QT finds a newer version on our server.
+
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader316S.zip
+
+May 9, 2017 Version 315S Changes:
+– major bug fix: disabled strategies resulted in corrupted QuantTrader.ini files. This was a very bad error in the past.
+– bug fix: alocation limits
+
+April 18, 2017 Version 314S Changes:
+– changed some labels for better readability
+– Top n ETFs limited to available ETFs
+– small bug fixes
+– bug fix: Max allocation must be bigger than 0%
+– Removed “no ranking” algorithm
+
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader314S.zip
+
+March 10, 2017 Version 313S Changes:
+– Bug fix of ETF download when adding new ETFs
+– Bug fix of optimization error when ETFs had 0.0 values in the adjusted closing prices
+
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader313S.zip
+
+March 7, 2017 Version 312S Changes:
+– Bug fixes of the current prices download management
+
+Download link: https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader312S.zip
+
+February 16, 2017 Version 311S Changes:
+– Now QT will ask you if you want to download current 15 min delayed prices. This will only happen when the US market is open (beginning from 3.45pm). Downloading current 15 min delayed prices is slower than downloading the last days closing price.
+– Several input checks now prevent the user to input forbidden special characters into different text fields. This was corrupting the QuantTrader.ini file in the past.
+– It is now also not longer possible to input 5% limits when the QT was in the 10% step mode.
+
+Download link: https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader311S.zip
+
+February 10, 2017 Version 310S Changes:
+– several smaller Bug fixes
+– Now the strategy always loads the 15 minute delayed prices if you start it during normal market hours. This allows you to start it for example the last day of the month at 3pm and then you can do your allocation changes during the last hour.
+– The strategy drag down field now automatically gets large enough so that you can read the complete strategy names.
+
+Download link: https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader310S.zip
+
+January 18, 2017 Version 309S Changes:
+– Bug fix when exporting and importing strategies
+
+Download link: https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader309S.zip
+
+January 13, 2017 Version 308S Changes:
+– Bug fix when exporting meta-strategies
+– New “go to cash” function.
+Go to the “Strategy Parameters” and open the “Advanced” tab. You will see an input field for the “Cash Sharp Limit”. You can give cash a sharpe value and then cash is ranked together with the ETFs. Good values are Sharpe values of about 0.85. All top ranked ETFs are compared to this cash Sharpe and if the ETFs have a lower Sharpe than cash, the strategy will replace them with cash. QuantTrader calculates sharpe slightly different to allow a ranking of ETFs with negative performance. The percentages are normalized to 1. 0% performance=1. 2% performance=1.02, -5% performance=0.5. Same is done for volatility. If we have for example a performance of 12% and a volatility of 17%, then the normal Sharpe would be 12/17=0.7. The sharpe how we calculate it is 1.12/1.17= 0.95.
+So, if you use for example 0.85 as cash limit, then ETFs can also have slightly negative performance and they are still not replaced by cash. You will have to do some backtests to find out which is a good cash sharpe value. Giving cash a sharpe value is the much better method than just going to cash when the lookback performance of an ETF was negative.
+
+Download link: https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader308S.zip
+
+December 14, 2016 Version 307S Changes:
+– Quarterly rebalancing is now possible (Q symbol). Normally you also have to change (make longer) the lookback periods to obtain good results with quarterly rebalancing. You have to do this in all sub-strategies. For example you have to change the GMRS strategy itself to quarterly with a good lookback period and then also switch the GMRS hedged strategy to quarterly. Also this strategy will probably need a longer lookback period. Be aware that with quarterly rebalancing the hedge is only increased with a very long delay. Therefore you should run the strategy with high volatility attenuation values. This means that you always allocate about to risk parity.
+– Bug fix with ETF multipiers. For every ETF you can set a multiplier which multiplies or divides the daily performance. This is for example necessary if you work with inverse ETF. Many of them only exist in a -2x or -3x leveraged version. If you multiply them by 0.5 or 0.333, then they behave like a 1x leveraged ETF in the strategy. But be aware that you have to buy 2 or 3 times less of these ETFs. The allocation is the one for the unleveraged ETF.
+
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader307S.zip
+
+December 6, 2016 Version 306S Changes:
+– New Parameter in the advanced tab to delay trading up to 21 days (one month). Also the Analysis day can be individually set. Before it was always the last day of the month. Now it can be set to any day of the month with this additional delay until the trade is made.
+– Several bug fixes concerning the duplication and renaming of strategies.
+– Bug fix with trading costs
+
+https://dl.dropboxusercontent.com/u/43364046/Logical-Invest%20QuantTrader%20versions/QuantTrader306S.zip
+
