@@ -1,59 +1,59 @@
-﻿Allocation Date,12/31/2021,,,,
+﻿Allocation Date,1/31/2022,,,,
 ,,,,,
 #All Strategies,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DLTR,Dollar Tree Inc.,6.00%,140.52,42,5901.84
-EUO,USD/EUR x2,3.20%,25.86,123,3180.78
-LRCX,Lam Research Corporation,6.00%,719.15,8,5753.2
-MU,Micron Technology Inc.,6.00%,93.15,64,5961.6
-QCOM,QUALCOMM Incorporated,6.00%,182.87,32,5851.84
-TIP,TIP,40.80%,129.2,315,40698
-TLT,Barclays long term treasury (10 years),10.66%,148.19,71,10521.49
-VNQ,Vanguard Real Estate Index Fund ETF,10.66%,116.01,91,10556.91
-VUG,Vanguard Growth Index Fund ETF,10.66%,320.9,33,10589.7
-Total, ,99.97%, , ,99015.36
+EBND, ,20.00%,24.32,1151,27992.32
+EUO,USD/EUR x2,16.80%,26.42,890,23513.8
+TIP,TIP,45.20%,126.54,500,63270
+XLI,US Industrial Sector SPDR,7.20%,100.74,100,10074
+XLP,US Consumer Staples Sector SPDR,10.80%,75.97,199,15118.03
+Total, ,100.00%, , ,139968.15
+,,,,,
+,,,,,
+,,,,,
+,,,,,
 ,,,,,
 #Coinbase,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-BTC-USD,Bitcoin,50.00%,46306.45,1,46306.45
-NEAR, ,50.00%,49.95,1401,69979.95
-Total, ,100.00%, , ,116286.4
+BTC-USD,Bitcoin,50.00%,38483.13,1,38483.13
+NEAR, ,50.00%,49.91,1402,69973.82
+Total, ,100.00%, , ,108456.95
 ,,,,,
 #Crypto and leveraged assets top 2 (CLT2),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-SPXL,+3x Direxion Leveraged S&P 500,50.00%,138.75,504,69930
-TMF,3x direxion leveraged 20-yr treasury,50.00%,28.83,2428,69999.24
-Total, ,100.00%, , ,139929.24
+BTC-USD,Bitcoin,50.00%,38483.13,1,38483.13
+NEAR, ,50.00%,49.91,1402,69973.82
+Total, ,100.00%, , ,108456.95
 ,,,,,
 ,,,,,
 #Global Assets Rotation (GAR),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DLTR,Dollar Tree Inc.,6.00%,140.52,42,5901.84
-EUO,USD/EUR x2,3.20%,25.86,123,3180.78
-LRCX,Lam Research Corporation,6.00%,719.15,8,5753.2
-MU,Micron Technology Inc.,6.00%,93.15,64,5961.6
-QCOM,QUALCOMM Incorporated,6.00%,182.87,32,5851.84
-TIP,TIP,40.80%,129.2,315,40698
-TLT,Barclays long term treasury (10 years),10.66%,148.19,71,10521.49
-VNQ,Vanguard Real Estate Index Fund ETF,10.66%,116.01,91,10556.91
-VUG,Vanguard Growth Index Fund ETF,10.66%,320.9,33,10589.7
-Total, ,99.97%, , ,99015.36
+EUO,USD/EUR x2,32.00%,26.42,1695,44781.9
+TIP,TIP,48.00%,126.54,531,67192.74
+USO,United States Oil Fund,6.66%,62.48,149,9309.52
+VNQ,Vanguard Real Estate Index Fund ETF,6.66%,106.24,87,9242.88
+VUG,Vanguard Growth Index Fund ETF,6.66%,290.69,32,9302.08
+Total, ,99.98%, , ,139829.12
+,,,,,
+,,,,,
+,,,,,
+,,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DIPSX, ,100.00%,13.43,10424,139994.32
-Total, ,100.00%, , ,139994.32
+TPINX, ,100.00%,8.78,15945,139997.1
+Total, ,100.00%, , ,139997.1
 ,,,,,
 ,,,,,
 ,,,,,
 #Permanent Portfolio (US Market Stock Prec Metals version),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DLTR,Dollar Tree Inc.,10.00%,140.52,71,9976.92
-LRCX,Lam Research Corporation,10.00%,719.15,13,9348.95
-MU,Micron Technology Inc.,10.00%,93.15,107,9967.05
-QCOM,QUALCOMM Incorporated,10.00%,182.87,54,9874.98
-TIP,TIP,60.00%,129.2,464,59948.8
-Total, ,100.00%, , ,99116.7
+GLD,Gold,40.00%,168.09,333,55973.97
+TIP,TIP,60.00%,126.54,663,83896.02
+Total, ,100.00%, , ,139869.99
+,,,,,
+,,,,,
+,,,,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -61,8 +61,8 @@ Total, ,100.00%, , ,99116.7
 ,,,,,
 #Permanent Portfolio LV (US Market Stock LV),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GLD,Gold,16.00%,170.96,93,15899.28
-SPLV,SP500lowvola,10.00%,68.63,145,9951.35
-TIP,TIP,50.00%,129.2,386,49871.2
-YCS,Yen short x2,24.00%,82.99,289,23984.83
-Total, ,100.00%, , ,99706.66
+CROC,PROSHARES ULTRASHORT AUSTRALIAN DOLLAR,16.00%,50.93,439,22360.16
+GLD,Gold,24.00%,168.09,199,33449.91
+SPY,SPDR S&P 500 Index,10.00%,449.91,31,13947.21
+TIP,TIP,50.00%,126.54,553,69976.62
+Total, ,100.00%, , ,139733.9
