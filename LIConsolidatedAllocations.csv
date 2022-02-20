@@ -1,4 +1,4 @@
-﻿Allocation Date,1/31/2022,,,,
+﻿Allocation Date,1/16/2022,,,,
 ,,,,,
 #All Strategies,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
@@ -21,9 +21,9 @@ Total, ,100.00%, , ,108456.95
 ,,,,,
 #Crypto and leveraged assets top 2 (CLT2),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-BTC-USD,Bitcoin,50.00%,38483.13,1,38483.13
-NEAR, ,50.00%,49.91,1402,69973.82
-Total, ,100.00%, , ,108456.95
+AGQ,ProShares Ultra Silver,50.00%,34.57,2024,69969.68
+BTC-USD,Bitcoin,50.00%,44235.39,1,44235.39
+Total, ,100.00%, , ,114205.07
 ,,,,,
 ,,,,,
 #Global Assets Rotation (GAR),,,,,
