@@ -1,39 +1,39 @@
-﻿Allocation Date,4/14/2022,,,,
+﻿Allocation Date,5/13/2022,,,,
 ,,,,,
 #All Strategies,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-FTRI,FTRI,4.80%,16.56,405,6706.8
-IGF,iShares S&P Global Infrastructure Index,9.60%,50.86,264,13427.04
-JXI,iShares S&P Global Utilities Sector,4.80%,65.84,102,6715.68
-REMX,Market Vectors Rare Earth Strategic Metals,4.80%,118.28,56,6623.68
-TIP,TIP,36.00%,124.57,404,50326.28
-YCS,Yen short x2,24.00%,92.73,362,33566.74
-Total, ,83.99%, , ,117366.22
-,,,,,
-,,,,,
+DBE, ,2.66%,25.39,146,3706.94
+IWR,Russell Mid-cap,2.66%,71.99,51,3671.49
+SLV,iShares Silver Trust,32.00%,21.04,2129,44794.16
+TIP,TIP,48.00%,121.07,555,67193.85
+VNQ,Vanguard Real Estate Index Fund ETF,2.66%,103.94,35,3637.9
+XLE,US Energy Sector SPDR,4.80%,75.17,89,6690.13
+XLI,US Industrial Sector SPDR,4.80%,95.14,70,6659.8
+XLU,US Utilities Sector SPDR,2.40%,71.29,47,3350.63
+Total, ,99.99%, , ,139704.9
 ,,,,,
 ,,,,,
 #Coinbase,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-ETH-USD,Ethereum,50.00%,3289.21,21,69073.49
-NEAR, ,50.00%,49.57,1412,69992.84
-Total, ,100.00%, , ,139066.33
+BTC-USD,Bitcoin,50.00%,29283.1,2,58566.21
+NEAR, ,50.00%,49.45,1415,69971.75
+Total, ,100.00%, , ,128537.96
 ,,,,,
 #Crypto and leveraged assets top 2 (CLT2),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-AGQ,ProShares Ultra Silver,50.00%,38.53,1816,69970.48
-ETH-USD,Ethereum,50.00%,3289.21,21,69073.49
-Total, ,100.00%, , ,139043.97
+BTC-USD,Bitcoin,50.00%,29283.1,2,58566.21
+SPXL,+3x Direxion Leveraged S&P 500,50.00%,81.46,859,69974.14
+Total, ,100.00%, , ,128540.35
 ,,,,,
 ,,,,,
 #Global Assets Rotation (GAR),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DBE, ,6.66%,23.08,403,9301.24
-IWR,Russell Mid-cap,6.66%,78.04,119,9286.76
-TIP,TIP,48.00%,124.57,539,67143.23
-VNQ,Vanguard Real Estate Index Fund ETF,6.66%,108.37,86,9319.82
-YCS,Yen short x2,32.00%,92.73,483,44786.56
-Total, ,99.98%, , ,139837.61
+DBE, ,6.66%,25.39,367,9318.13
+IWR,Russell Mid-cap,6.66%,71.99,129,9286.71
+SLV,iShares Silver Trust,32.00%,21.04,2129,44794.16
+TIP,TIP,48.00%,121.07,555,67193.85
+VNQ,Vanguard Real Estate Index Fund ETF,6.66%,103.94,89,9250.66
+Total, ,99.98%, , ,139843.51
 ,,,,,
 ,,,,,
 ,,,,,
@@ -48,9 +48,9 @@ Total, ,100.00%, , ,139997.1
 ,,,,,
 #Permanent Portfolio (US Market Stock Prec Metals version),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-PALL,Aberdeen Standard Physical Palladium Shares,60.00%,208.9,402,83977.8
-TIP,TIP,40.00%,124.57,449,55931.93
-Total, ,100.00%, , ,139909.73
+PALL,Aberdeen Standard Physical Palladium Shares,60.00%,213.06,394,83945.64
+TIP,TIP,40.00%,121.07,462,55934.34
+Total, ,100.00%, , ,139879.98
 ,,,,,
 ,,,,,
 ,,,,,
@@ -61,8 +61,8 @@ Total, ,100.00%, , ,139909.73
 ,,,,,
 #Permanent Portfolio LV (US Market Stock LV),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GLD,Gold,20.00%,180.65,154,27820.1
-SPLV,SP500lowvola,20.00%,67.09,417,27976.53
-TIP,TIP,30.00%,124.57,337,41980.09
-YCS,Yen short x2,30.00%,92.73,452,41912.06
-Total, ,100.00%, , ,139688.78
+GLD,Gold,20.00%,176.91,158,27951.78
+SPLV,SP500lowvola,20.00%,65.35,428,27969.8
+TIP,TIP,30.00%,121.07,346,41890.22
+YCS,Yen short x2,30.00%,105,400,42000
+Total, ,100.00%, , ,139811.8
