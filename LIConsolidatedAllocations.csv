@@ -1,39 +1,37 @@
-﻿Allocation Date,5/13/2022,,,,
+﻿Allocation Date,5/31/2022,,,,
 ,,,,,
-#All Strategies,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+#Stagflation,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DBE, ,2.66%,25.39,146,3706.94
-IWR,Russell Mid-cap,2.66%,71.99,51,3671.49
-SLV,iShares Silver Trust,32.00%,21.04,2129,44794.16
-TIP,TIP,48.00%,121.07,555,67193.85
-VNQ,Vanguard Real Estate Index Fund ETF,2.66%,103.94,35,3637.9
-XLE,US Energy Sector SPDR,4.80%,75.17,89,6690.13
-XLI,US Industrial Sector SPDR,4.80%,95.14,70,6659.8
-XLU,US Utilities Sector SPDR,2.40%,71.29,47,3350.63
-Total, ,99.99%, , ,139704.9
+DBE, ,50.00%,27.75,2522,69985.5
+TMF,3x direxion leveraged 20-yr treasury,50.00%,13.22,5295,69999.9
+Total, ,100.00%, , ,139985.4
 ,,,,,
 ,,,,,
-#Coinbase,,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-BTC-USD,Bitcoin,50.00%,29283.1,2,58566.21
-NEAR, ,50.00%,49.45,1415,69971.75
-Total, ,100.00%, , ,128537.96
 ,,,,,
-#Crypto and leveraged assets top 2 (CLT2),,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-BTC-USD,Bitcoin,50.00%,29283.1,2,58566.21
-SPXL,+3x Direxion Leveraged S&P 500,50.00%,81.46,859,69974.14
-Total, ,100.00%, , ,128540.35
+,,,,,
+,,,,,
+,,,,,
 ,,,,,
 ,,,,,
 #Global Assets Rotation (GAR),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DBE, ,6.66%,25.39,367,9318.13
-IWR,Russell Mid-cap,6.66%,71.99,129,9286.71
-SLV,iShares Silver Trust,32.00%,21.04,2129,44794.16
-TIP,TIP,48.00%,121.07,555,67193.85
-VNQ,Vanguard Real Estate Index Fund ETF,6.66%,103.94,89,9250.66
-Total, ,99.98%, , ,139843.51
+DBE, ,6.66%,27.75,336,9324
+EFA,iShares MSCI EAFE ETF,6.66%,70.01,133,9311.33
+TIP,TIP,48.00%,118.94,564,67082.16
+VNQ,Vanguard Real Estate Index Fund ETF,6.66%,99.07,94,9312.58
+YCS,Yen short x2,32.00%,51.57,868,44761.02
+Total, ,99.98%, , ,139791.09
 ,,,,,
 ,,,,,
 ,,,,,
@@ -46,11 +44,10 @@ Total, ,100.00%, , ,139997.1
 ,,,,,
 ,,,,,
 ,,,,,
-#Permanent Portfolio (US Market Stock Prec Metals version),,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-PALL,Aberdeen Standard Physical Palladium Shares,60.00%,213.06,394,83945.64
-TIP,TIP,40.00%,121.07,462,55934.34
-Total, ,100.00%, , ,139879.98
+,,,,,
+,,,,,
+,,,,,
+,,,,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -61,8 +58,8 @@ Total, ,100.00%, , ,139879.98
 ,,,,,
 #Permanent Portfolio LV (US Market Stock LV),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GLD,Gold,20.00%,176.91,158,27951.78
-SPLV,SP500lowvola,20.00%,65.35,428,27969.8
-TIP,TIP,30.00%,121.07,346,41890.22
-YCS,Yen short x2,30.00%,105,400,42000
-Total, ,100.00%, , ,139811.8
+CROC,PROSHARES ULTRASHORT AUSTRALIAN DOLLAR,35.00%,50.72,966,48998.71
+GLD,Gold,15.00%,171.14,122,20879.08
+SPLV,SP500lowvola,10.00%,64.89,215,13951.35
+TIP,TIP,40.00%,118.94,470,55901.8
+Total, ,100.00%, , ,139730.94
