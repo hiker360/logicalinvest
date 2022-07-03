@@ -1,21 +1,5 @@
-﻿Allocation Date,6/15/2022,,,,
+﻿Allocation Date,7/1/2022,,,,
 ,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-#Stagflation,,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DBC, ,50.00%,29.58,2366,69986.28
-DBE, ,50.00%,29.36,2384,69994.24
-Total, ,100.00%, , ,139980.52
 ,,,,,
 ,,,,,
 ,,,,,
@@ -26,40 +10,30 @@ Total, ,100.00%, , ,139980.52
 ,,,,,
 #Global Assets Rotation (GAR),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-DBE, ,6.66%,27.75,336,9324
-EFA,iShares MSCI EAFE ETF,6.66%,70.01,133,9311.33
-TIP,TIP,48.00%,118.94,564,67082.16
-VNQ,Vanguard Real Estate Index Fund ETF,6.66%,99.07,94,9312.58
-YCS,Yen short x2,32.00%,51.57,868,44761.02
-Total, ,99.98%, , ,139791.09
-,,,,,
-,,,,,
+TLT,Barclays long term treasury (10 years),48.00%,115.82,580,67175.6
+VTIP,Vanguard TIP,20.00%,49.84,561,27960.24
+YCS,Yen short x2,32.00%,56.79,788,44750.52
+Total, ,100.00%, , ,139886.36
 ,,,,,
 ,,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-TPINX, ,100.00%,8.78,15945,139997.1
-Total, ,100.00%, , ,139997.1
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+LDLKX, ,100.00%,3.94,35532,139996.08
+Total, ,100.00%, , ,139996.08
 ,,,,,
 ,,,,,
 ,,,,,
 #Permanent Portfolio LV (US Market Stock LV),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-CROC,PROSHARES ULTRASHORT AUSTRALIAN DOLLAR,35.00%,50.72,966,48998.71
-GLD,Gold,15.00%,171.14,122,20879.08
-SPLV,SP500lowvola,10.00%,64.89,215,13951.35
-TIP,TIP,40.00%,118.94,470,55901.8
-Total, ,100.00%, , ,139730.94
+EUO,USD/EUR x2,12.00%,30.72,546,16773.12
+GLD,Gold,18.00%,168.32,149,25079.68
+TLT,Barclays long term treasury (10 years),70.00%,115.82,846,97983.72
+Total, ,100.00%, , ,139836.52
+,,,,,
+,,,,,
+#Stagflation,,,,,
+Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
+BTC-USD,Bitcoin,50.00%,19269.37,3,57808.1
+VTIP,Vanguard TIP,50.00%,49.84,1404,69975.36
+Total, ,100.00%, , ,127783.46
