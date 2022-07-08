@@ -1,21 +1,4 @@
-﻿Allocation Date,7/1/2022,,,,
-,,,,,
-,,,,,
-#Crypto and leveraged assets top 2,,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GSY,Invesco Ultra Short Duration ETF,50.00%,49.58,100847,4999994.26
-TMF, ,50.00%,12.87,388500,4999995
-Total, ,100.00%, , ,9999989.26
-,,,,,
-,,,,,
-#Global Assets Rotation 2 (GAR2),,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-TLT,Barclays long term treasury (10 years),40.00%,115.82,34536,3999959.52
-YCS,Yen short x2,60.00%,56.79,105652,5999977.08
-Total, ,100.00%, , ,9999936.6
-,,,,,
-,,,,,
-,,,,,
+﻿Allocation Date,7/29/2022,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
@@ -23,12 +6,19 @@ LDLKX, ,100.00%,3.94,35532,139996.08
 Total, ,100.00%, , ,139996.08
 ,,,,,
 ,,,,,
-,,,,,
-#Permanent Portfolio LV (US Market Stock LV),,,,,
+#UIS Growth-hedged (PM-USD),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GSY,Invesco Ultra Short Duration ETF,20.00%,49.58,40338,1999958.04
-TLT,Barclays long term treasury (10 years),80.00%,115.82,69072,7999919.04
-Total, ,100.00%, , ,9999877.08
+GSY,Invesco Ultra Short Duration ETF,60.00%,49.55,1210,59955.5
+YCS,Yen short x2,40.00%,57.38,697,39993.86
+Total, ,100.00%, , ,99949.36
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
 ,,,,,
 ,,,,,
 ,,,,,
