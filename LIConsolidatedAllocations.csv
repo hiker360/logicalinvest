@@ -1,13 +1,16 @@
-﻿Allocation Date,7/8/2022,,,,
+﻿Allocation Date,8/31/2022,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-LDLKX, ,100.00%,3.94,35532,139996.08
-Total, ,100.00%, , ,139996.08
+LDLKX, ,80.00%,3.96,20202,79999.92
+LVOSX, ,20.00%,17.95,1114,19996.3
+Total, ,100.00%, , ,99996.22
+,,,,,
 ,,,,,
 ,,,,,
 #UIS Growth-hedged (PM-USD),,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GSY,Invesco Ultra Short Duration ETF,60.00%,49.55,1210,59955.5
-YCS,Yen short x2,40.00%,57.38,697,39993.86
-Total, ,100.00%, , ,99949.36
+GSY,Invesco Ultra Short Duration ETF,48.00%,49.58,968,47993.44
+QQQ,PowerShares Nasdaq-100 Index,20.00%,301.02,66,19867.32
+YCS,Yen short x2,32.00%,59.66,536,31975.08
+Total, ,100.00%, , ,99835.84
