@@ -1,19 +1,23 @@
-﻿Allocation Date,2/28/2023,,,,
+﻿Allocation Date,4/1/2023,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-LDLKX, ,80.00%,3.89,20565,79997.85
-LVOSX, ,20.00%,16.9,1183,19992.7
-Total, ,100.00%, , ,99990.55
+LDLKX, ,80.00%,3.87,20671,79996.77
+OLGAX, ,20.00%,46.68,428,19979.04
+Total, ,100.00%, , ,99975.81
 ,,,,,
 ,,,,,
 ,,,,,
 #UIS Growth-hedged (PM-USD),,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-CAT,CAT,5.00%,239.55,20,4791
-GSY,Invesco Ultra Short Duration ETF,48.00%,49.59,967,47953.53
-JPM,JPM,5.00%,143.35,34,4873.9
-MRK,MRK,5.00%,106.24,47,4993.28
-TRV,TRV,5.00%,185.12,27,4998.24
-VXZ,Medium term volatility (Does well in bad times),32.00%,22.11,1447,31993.17
-Total, ,100.00%, , ,99603.12
+Symbol,Holding,Weight,Amount,Price,Shares
+BOTZ,Global X Robotics & Artificial Intelligence ETF,1.30%,"$1,300 ",$25.50 ,50
+GLD,SPDR Gold Trust,21.30%,"$21,300 ",$183.22 ,116
+GSY,Invesco Ultra Short Duration ETF,31.90%,"$31,900 ",$49.60 ,643
+HART,IQ Healthy Hearts ETF,2.00%,"$2,000 ",$27.11 ,73
+KXI,iShares Global Consumer Staples ETF,2.00%,"$2,000 ",$61.95 ,32
+NXTG,First Trust Indxx NextG ETF,1.30%,"$1,300 ",$69.49 ,18
+PPH,VanEck Vectors Pharmaceutical ETF,2.00%,"$2,000 ",$77.63 ,25
+QQQ,Invesco QQQ Trust,16.40%,"$16,400 ",$320.93 ,51
+VGT,Vanguard Information Tech ETF,1.30%,"$1,300 ",$385.47 ,3
+XLK,SPDR Select Sector Fund - Technology,20.40%,"$20,400 ",$151.01 ,135
+Total,,99.90%,,,
