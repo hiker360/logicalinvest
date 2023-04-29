@@ -1,23 +1,24 @@
-﻿Allocation Date,4/1/2023,,,,
+﻿Allocation Date,5/1/2023,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-LDLKX, ,80.00%,3.87,20671,79996.77
-OLGAX, ,20.00%,46.68,428,19979.04
-Total, ,100.00%, , ,99975.81
+LDLKX, ,90.00%,3.87,2325581,8999998.47
+RNPFX, ,10.00%,52.69,18978,999950.82
+Total, ,100.00%, , ,9999949.29
 ,,,,,
 ,,,,,
 ,,,,,
-#UIS Growth-hedged (PM-USD),,,,,
-Symbol,Holding,Weight,Amount,Price,Shares
-BOTZ,Global X Robotics & Artificial Intelligence ETF,1.30%,"$1,300 ",$25.50 ,50
-GLD,SPDR Gold Trust,21.30%,"$21,300 ",$183.22 ,116
-GSY,Invesco Ultra Short Duration ETF,31.90%,"$31,900 ",$49.60 ,643
-HART,IQ Healthy Hearts ETF,2.00%,"$2,000 ",$27.11 ,73
-KXI,iShares Global Consumer Staples ETF,2.00%,"$2,000 ",$61.95 ,32
-NXTG,First Trust Indxx NextG ETF,1.30%,"$1,300 ",$69.49 ,18
-PPH,VanEck Vectors Pharmaceutical ETF,2.00%,"$2,000 ",$77.63 ,25
-QQQ,Invesco QQQ Trust,16.40%,"$16,400 ",$320.93 ,51
-VGT,Vanguard Information Tech ETF,1.30%,"$1,300 ",$385.47 ,3
-XLK,SPDR Select Sector Fund - Technology,20.40%,"$20,400 ",$151.01 ,135
-Total,,99.90%,,,
+#0 Top Core Portfolio,,,,,
+Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
+GLD,Gold,17.60%,$185 ,"$9,523.00 ",1759850.4
+GSY,Invesco Ultra Short Duration ETF,42.40%,$50 ,"$85,363.00 ",4239980.21
+PCY,Emerging market bonds,24.00%,$19 ,"$124,740.00 ",2399997.6
+QQQ,PowerShares Nasdaq-100 Index,16.00%,$323 ,"$4,960.00 ",1599897.6
+Total, ,100.00%, , ,9999725.81
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
