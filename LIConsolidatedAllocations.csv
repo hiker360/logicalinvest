@@ -1,24 +1,17 @@
-﻿Allocation Date,5/1/2023,,,,
+﻿Allocation Date,7/1/2023,,,,
 ,,,,,
 #Oberon 401k,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-LDLKX, ,90.00%,3.87,2325581,8999998.47
-RNPFX, ,10.00%,52.69,18978,999950.82
-Total, ,100.00%, , ,9999949.29
+RNPFX, ,100.00%,55.4,180505,9999977
+Total, ,100.00%, , ,9999977
+,,,,,
 ,,,,,
 ,,,,,
 ,,,,,
 #0 Top Core Portfolio,,,,,
 Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-GLD,Gold,17.60%,$185 ,"$9,523.00 ",1759850.4
-GSY,Invesco Ultra Short Duration ETF,42.40%,$50 ,"$85,363.00 ",4239980.21
-PCY,Emerging market bonds,24.00%,$19 ,"$124,740.00 ",2399997.6
-QQQ,PowerShares Nasdaq-100 Index,16.00%,$323 ,"$4,960.00 ",1599897.6
-Total, ,100.00%, , ,9999725.81
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+CWB,Convertible Bond,16.00%,$70 ,"$22,873.00 ",1599966.35
+GSY,Invesco Ultra Short Duration ETF,60.00%,$50 ,"$120,870.00 ",5999986.8
+PCY,Emerging market bonds,8.00%,$19 ,"$41,046.00 ",799986.54
+QQQ,PowerShares Nasdaq-100 Index,16.00%,$369 ,"$4,331.00 ",1599958.02
+Total, ,100.00%, , ,9999897.71
