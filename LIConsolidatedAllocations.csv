@@ -1,25 +1,25 @@
-﻿Allocation Date,9/30/2023,,,,
-,,,,,
-#Oberon 401k,,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-LDLKX, ,90.00%,3.81,2362204,8999997.24
-MDISX,Franklin Mutual Global Discovery,10.00%,29.92,33422,999986.24
-Total, ,100.00%, , ,9999983.48
-,,,,,
-,,,,,
-,,,,,
-Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount
-AMGN,AMGN,6.00%,268.76,2232,599872.32
-BOAT,BOAT,1.60%,$28 ,"$5,714.00 ",159837.72
-CEG,CEG,6.00%,$109 ,"$5,500.00 ",599940
-CRAK,CRAK,1.60%,34.61,4618,159828.98
-GSY,Invesco Ultra Short Duration ETF,44.00%,49.7,88531,4399990.7
-GURU,Global X Top Guru Holdings,1.07%,36.21,2942,106529.82
-HART,HART,1.07%,27.12,3929,106542.69
-KXI,iShares S&P Global Consumer Staples,1.07%,57.06,1867,106531.02
-NLR,Market Vectors Nuclear Energy,1.60%,70.85,2256,159837.6
-PDD,PDD,6.00%,98.07,6118,599992.26
-REGN,REGN,6.00%,822.96,729,599937.84
-XLE,US Energy Sector SPDR,12.00%,90.39,13275,1199927.25
-XLK,US Technology Sector SPDR,12.00%,163.93,7320,1199967.6
-Total, ,99.99%, , ,9998735.81
+﻿Allocation Date,9/30/2023,,,,,,
+,,,,,,,
+#Oberon 401k,,,,,,,
+Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount,,
+LDLKX, ,90.00%,3.81,2362204,8999997.24,,
+MDISX,Franklin Mutual Global Discovery,10.00%,29.92,33422,999986.24,Pass,
+Total, ,100.00%, , ,9999983.48,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Symbol,Symbol Name,Weighting,Symbol Price,Shares,Amount,,
+AMGN,AMGN,6.00%,268.76,2232,599872.32,Buy,Uptrend.  2 days same action.  Over-bought Wait for confirmation
+BOAT,BOAT,1.60%,$28 ,"$5,714.00 ",159837.72,Pass,
+CEG,CEG,6.00%,$109 ,"$5,500.00 ",599940,Buy,Uptrend.  Closed below 20EMA.  MACD down trend. Overbought
+CRAK,CRAK,1.60%,34.61,4618,159828.98,Buy,Uptrend. Closed well below 20EMA. MACD down trend
+GSY,Invesco Ultra Short Duration ETF,44.00%,49.7,88531,4399990.7,Buy,
+GURU,Global X Top Guru Holdings,1.07%,36.21,2942,106529.82,Pass,
+HART,HART,1.07%,27.12,3929,106542.69,Pass,
+KXI,iShares S&P Global Consumer Staples,1.07%,57.06,1867,106531.02,Pass,
+NLR,Market Vectors Nuclear Energy,1.60%,70.85,2256,159837.6,Buy,Uptrend.  Overbought.  Bearish candle.
+PDD,PDD,6.00%,98.07,6118,599992.26,Buy,Uptrend. Overbought. Closed above 20EMA 2 days.  MACD downtrend. Wait for confirmation.
+REGN,REGN,6.00%,822.96,729,599937.84,Pass,
+XLE,US Energy Sector SPDR,12.00%,90.39,13275,1199927.25,Pass,
+XLK,US Technology Sector SPDR,12.00%,163.93,7320,1199967.6,Pass,
+Total, ,99.99%, , ,9998735.81,,
